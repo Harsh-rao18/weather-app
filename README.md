@@ -16,11 +16,12 @@ dependencies:
     sdk: flutter
   http: ^0.13.6
   lottie: ^2.6.0
+  geolocator: ^13.0.2
 
 🔧 Setup & Usage 
 
 # Clone the repository  
-git clone https://github.com/Harsh-rao18/weather_app.git  
+git clone https://github.com/yourusername/weather_app.git  
 cd weather_app  
 
 # Install dependencies  
@@ -29,10 +30,9 @@ flutter pub get
 # Run the app  
 flutter run  
 
+
 🛠 API Integration
 // Get your API key from OpenWeatherMap and add it inside WeatherService
 final _weatherService = WeatherService(apiKey: 'YOUR_API_KEY');
 
-👨‍💻 About the Developer
-Made with ❤️ by Harsh
 
