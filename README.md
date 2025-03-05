@@ -1,16 +1,38 @@
-# weather_app
+# 🌤 Weather App
 
-A new Flutter project.
+A simple Flutter weather app that fetches real-time weather data using an API and displays animations with **Lottie**.
 
-## Getting Started
+## 🚀 Features  
+- 🌎 Fetches current weather data for the user's location  
+- 🌦 Displays weather conditions with **Lottie animations**  
+- 🎨 Beautiful gradient background based on weather conditions  
+- ⚡ Uses **HTTP package** to fetch data from the API  
 
-This project is a starting point for a Flutter application.
+## 📦 Dependencies  
+Make sure you have the following dependencies in your `pubspec.yaml`:  
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  lottie: ^2.6.0
 
-A few resources to get you started if this is your first Flutter project:
+🔧 Setup & Usage 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Clone the repository  
+git clone https://github.com/Harsh-rao18/weather_app.git  
+cd weather_app  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Install dependencies  
+flutter pub get  
+
+# Run the app  
+flutter run  
+
+🛠 API Integration
+// Get your API key from OpenWeatherMap and add it inside WeatherService
+final _weatherService = WeatherService(apiKey: 'YOUR_API_KEY');
+
+👨‍💻 About the Developer
+Made with ❤️ by Harsh
+
